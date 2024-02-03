@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background: #FFD700; */
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/982/569/desktop-wallpaper-flappy-bird-backgrounds-flappy-bird.jpg");
+    background-size: cover;
+}
+img{
+    height: 400px;
+    width: 800px;
+    position: absolute;
+    top: 80px;
+    mix-blend-mode: multiply;
+    z-index: -1;
+}
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 250px;
+}
+  
+canvas {
+    display: none;
+    /* background: linear-gradient(#87CEEB, #ADD8E6); */
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/982/569/desktop-wallpaper-flappy-bird-backgrounds-flappy-bird.jpg");
+    background-size: cover;
+    border: 10px solid #228B22;
+    border-radius: 10px;
+}
+  
+#startButton, #restartButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    margin: 30px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#startButton , #restartButton {
+    transform: scale(1.5);
+}
+
+  
